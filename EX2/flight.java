@@ -25,7 +25,7 @@ public class flight {
         this.destination = destination;
     }
     public void display(){
-        System.out.print(number);
-        System.out.print(","+destination);
+        System.out.print(getNumber());
+        System.out.print(","+getDestination());
     }
 }
